@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // Simulasi fungsi mengambil data dari Database Postgresql
 function ambilDataDatabase(id) {
     return new Promise((resolve, reject) => {
@@ -30,3 +31,4 @@ async function prosesData() {
     }
 }
 prosesData();
+//# sourceMappingURL=file2.js.map
